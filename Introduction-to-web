@@ -1,0 +1,124 @@
+1. Explain the difference between Frontend, Backend, and Full-Stack Development with suitable real-world examples.
+Ans- 
+Frontend Development:
+It is the visible part of a website that users can see and interact with.
+It is developed using HTML, CSS, and JavaScript.
+It focuses on the design and user experience.
+Example: The homepage of Amazon or the Instagram login page.
+
+Backend Development:
+It is the server-side part of a website.
+It processes requests, manages data, and communicates with the database.
+It is developed using languages like Java, Python, PHP, or Node.js.
+Example: Verifying login details or processing online payments.
+
+Full-Stack Development:
+A Full-Stack Developer works on both the frontend and backend.
+They build the complete website from user interface to database.
+Example: Developing an entire e-commerce website like Amazon.
+
+
+3. Describe how a browser requests and displays a web page from a web server.
+Ans-
+The user enters a website URL in the browser.
+The browser sends a request to the web server.
+The web server processes the request.
+The server sends the required files (HTML, CSS, JavaScript, images) back to the browser.
+The browser reads these files and displays the web page to the user.
+
+
+4. Identify and list the tools required to set up a web development environment. Explain the purpose of each.
+Ans-
+1. Notepad / VS Code
+Used to write HTML, CSS, and JavaScript code.
+2. Web Browser
+Used to open and test web pages.
+Examples: Google Chrome, Microsoft Edge.
+3. Git
+Used to track changes in code.
+4. GitHub
+Used to store projects online and collaborate with others.
+5. Node.js (Optional)
+Used to run JavaScript outside the browser and install packages.
+
+
+5. Explain what a web server is and give examples of commonly used servers.
+
+Ans-
+A web server is a computer or software that stores website files and sends them to users when they request a web page through a browser.
+
+Examples of Web Servers:
+
+Apache HTTP Server
+Nginx
+Microsoft IIS
+LiteSpeed
+Node.js (Express)
+
+
+6. Define the roles of a Frontend Developer, Backend Developer, and Database Administrator in a project.
+Ans-
+Frontend Developer:
+Designs the user interface.
+Creates web pages using HTML, CSS, and JavaScript.
+Makes the website responsive and user-friendly.
+
+Backend Developer:
+Develops server-side logic.
+Connects the website with the database.
+Handles login, authentication, and data processing.
+
+Database Administrator (DBA):
+Manages and maintains databases.
+Stores, secures, and backs up data.
+Ensures data is available and organized.
+
+7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a screenshot of the setup.
+Ans-
+Steps:
+Download and install Visual Studio Code.
+Open VS Code.
+Install the Live Server extension.
+Create a folder for your project.
+Create three files:
+index.html
+style.css
+script.js
+Open index.html using Live Server.
+Take a screenshot showing VS Code with these files and the Live Server extension installed.
+
+
+8. Explain the difference between static and dynamic websites. Provide an example of each.
+Ans: 
+Static Website:
+Shows the same content to every user.
+Does not use a database.
+Simple and fast.
+Example: Personal portfolio website.
+
+Dynamic Website:
+Content changes based on the user or data.
+Uses a database.
+More interactive.
+Example: Amazon, Facebook, Instagram.
+
+
+9. Research and list five web browsers. Explain how rendering engines differ between them.
+Ans-
+Five Web Browsers:
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+Apple Safari
+Opera
+
+Rendering Engines:
+Google Chrome: Blink
+Microsoft Edge: Blink
+Mozilla Firefox: Gecko
+Apple Safari: WebKit
+Opera: Blink
+
+Difference
+
+A rendering engine converts HTML, CSS, and JavaScript into the web page that users see. Different browsers use different rendering engines, so websites may look or perform slightly differently on each browser.
