@@ -1,1 +1,1 @@
-# BridgeLabz-Training-3Y
+This is classroom-practice Readme file.
