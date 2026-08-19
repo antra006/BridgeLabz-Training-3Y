@@ -1,0 +1,29 @@
+/* div h2 {
+    color: green;
+    text-align: center;
+} */
+
+.container {
+    background-color: lightgray;
+    width: 400px;
+    height:600px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+/* .container h1 {
+    color: blue;
+    text-align: center;
+} */
+.box{
+    background-color: yellow;
+    width: 300px; 
+    height: 200px;
+    border: 2px solid blue;
+    padding:20px;
+    color: red;
+    box-sizing:border-box;
+}
+.box p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
