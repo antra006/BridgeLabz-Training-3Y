@@ -1,0 +1,33 @@
+*{
+    margin : 0px;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+html{
+ font-size: 16px;
+}
+.container{
+    border : 5px solid red;
+    width :80%;
+    padding :20px;
+    margin :0 auto;
+    font-size:10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container p{
+    font-size : 2rem;
+    color : blue;
+    line-height : 2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.green{
+    background-color : green;
+    color: white;
+    height: 100px;
+    width: 300px;
+    display : inline;
+    visibility : hidden;
+}
