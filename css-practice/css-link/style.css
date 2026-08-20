@@ -3,9 +3,24 @@
 .container a{
    color: blue;
    text-decoration: none;
-   cursor: zoom-in; #default
+   cursor: pointer; 
+   display: block;
 }
 
 .container a:hover{
-    color:brown;
+    color:rgb(48, 11, 63);
+    background-color:rgb(142, 244, 244);
+}
+
+.container ul{
+    padding: 10px 10px;
+    /* border: 1px solid red; */
+    list-style-type: none;
+}
+.container ul li{
+    /* border: 1px solid orange; */
+    list-style-type: none;
+    text-align: center;
+    border-top:1px solid black;
+    background-color: lightblue;
 }
