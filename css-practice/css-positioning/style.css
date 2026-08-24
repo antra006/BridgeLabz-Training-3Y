@@ -1,0 +1,47 @@
+
+
+
+.container {
+    position:absolute;
+    width:400px;
+    height:1500px;
+    border:1px solid red;
+}
+
+.box1{
+    position:relative;
+    width:200px;
+    height:200px;
+    background-color:rgb(239, 88, 24);
+}
+
+
+.box2{
+    position:relative;
+    width:160px;
+    height:160px;
+    left:20px;
+    bottom:180px;
+    background-color:rgb(215, 31, 154);
+    
+}
+
+
+.box3{
+    position:relative;
+    width:120px;
+    height:120px;
+    left:40px;
+    bottom:320px;
+    background-color:rgb(80, 16, 228);
+}
+
+
+.box4{
+    position:relative;
+    width:80px;
+    height:80px;
+    left:60px;
+    bottom: 420px;
+    background-color:rgb(237, 169, 10);
+}
