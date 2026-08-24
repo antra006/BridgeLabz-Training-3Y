@@ -1,47 +1,52 @@
 
-
-
 .container {
-    position:absolute;
+    position:relative;
     width:400px;
     height:1500px;
     border:1px solid red;
 }
+.box{
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    position:sticky;
+    
+}
 
 .box1{
-    position:relative;
+    
     width:200px;
     height:200px;
     background-color:rgb(239, 88, 24);
+    top: 0px;
 }
 
 
 .box2{
-    position:relative;
+   
     width:160px;
     height:160px;
     left:20px;
-    bottom:180px;
+    top:20px;
     background-color:rgb(215, 31, 154);
     
 }
 
 
 .box3{
-    position:relative;
     width:120px;
     height:120px;
     left:40px;
-    bottom:320px;
+    top: 40px;
     background-color:rgb(80, 16, 228);
 }
 
 
 .box4{
-    position:relative;
+
     width:80px;
     height:80px;
     left:60px;
-    bottom: 420px;
+    top: 60px;
     background-color:rgb(237, 169, 10);
 }
