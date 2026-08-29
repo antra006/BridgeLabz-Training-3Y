@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="photo-gallery.css">
+</head>
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="photo">
+            <img src="image1.jpg" alt="Nature">
+            <div class="caption">Beautiful Nature</div>
+        </div>
+
+        <div class="photo">
+            <img src="image2.jpg" alt="Mountains">
+            <div class="caption">Amazing Mountains</div>
+        </div>
+
+        <div class="photo">
+            <img src="image3.jpg" alt="Beach">
+            <div class="caption">Peaceful Beach</div>
+        </div>
+
+        <div class="photo">
+            <img src="image4.jpg" alt="Flowers">
+            <div class="caption">Beautiful Flowers</div>
+        </div>
+
+        <div class="photo">
+            <img src="image5.jpg" alt="Forest">
+            <div class="caption">Green Forest</div>
+        </div>
+
+        <div class="photo">
+            <img src="image6.jpg" alt="Sunset">
+            <div class="caption">Beautiful Sunset</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

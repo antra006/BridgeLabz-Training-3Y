@@ -1,0 +1,30 @@
+.body {
+    margin: 0;
+    font-family: Georgia;
+    background-color: #e5e5e5;
+}
+
+.main {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+}
+
+.h1 {
+    column-span: all;
+    text-align: center;
+}
+
+.content {
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

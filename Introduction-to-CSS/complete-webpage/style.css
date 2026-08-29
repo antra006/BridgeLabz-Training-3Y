@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    height: 400px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.about img {
+    width: 300px;
+    position: relative;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    background-color: rgba(200, 200, 255, 0.5);
+}
+
+.service {
+    flex: 1;
+    padding: 25px;
+    border: 2px solid #333;
+    outline: 2px solid #aaa;
+    margin: 10px;
+    background-color: white;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #333;
+}
+
+button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .about,
+    .services {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 100%;
+    }
+}

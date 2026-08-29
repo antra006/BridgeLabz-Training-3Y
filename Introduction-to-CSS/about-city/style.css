@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #555;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+section {
+    min-height: 300px;
+    padding: 50px;
+    margin: 20px 0;
+    border: 2px solid #333;
+}
+
+.history {
+    background: linear-gradient(to right, #f6d365, #fda085);
+    background-attachment: fixed;
+}
+
+.places {
+    background-color: #f4f4f4;
+}
+
+.food {
+    background: radial-gradient(circle, #ffecd2, #fcb69f);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

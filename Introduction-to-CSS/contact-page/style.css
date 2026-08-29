@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eaf2f8;
+    color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
