@@ -1,0 +1,33 @@
+
+
+.container{
+    width:400px;
+    border:1px solid red;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card {
+    width:200px;
+    height:300px;
+    border:1px solid black;
+    background-color:red;
+    text-align:center;
+    box-shadow:-10px -10px 5px rgb(103, 59, 127) , 10px 20px 20px rgb(188, 77, 30);
+    background-image: radial-gradient( blue , red );
+    transition:all .5s ease;
+}
+
+
+
+.card:hover {
+    
+    border:1px solid black;
+    background-color:rgb(108, 77, 182);
+    box-shadow:-10px -10px 20px rgb(193, 42, 42) , 10px 20px 20px rgb(109, 12, 109);
+    background-image: linear-gradient(120deg, red, blue);
+    transform:translateY(-30px);
+    transform:scale(2.1);
+}
