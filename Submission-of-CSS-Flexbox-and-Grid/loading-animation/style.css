@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    animation: move 0.8s infinite;
+}
+
+.box2 {
+    animation-delay: 0.2s;
+}
+
+.box3 {
+    animation-delay: 0.4s;
+}
+
+@keyframes move {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}

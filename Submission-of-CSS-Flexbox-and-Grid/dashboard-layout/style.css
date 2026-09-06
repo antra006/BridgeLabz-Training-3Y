@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 15px;
+}
+
+.header {
+    grid-column: span 2;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: lightblue;
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px gray;
+}
+
+.box1 {
+    grid-column: span 2;
+}
