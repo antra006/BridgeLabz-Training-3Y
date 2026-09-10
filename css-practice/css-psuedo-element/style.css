@@ -1,5 +1,5 @@
 
-/* h1{
+h1{
     position:relative;
 }
 
@@ -67,11 +67,29 @@ h1:hover::before{
 
 .btn:hover::before{
     opacity:1;
-} */
+}
 
 
 .btn2{
     border:none;
     padding:10px;
     background-color:black;
+    color:white;
+    position:relative;
+}
+
+.btn2:after{
+    content:"";
+    position:absolute;
+    width:100px;
+    height:50px;
+    left:50%;
+    translate(-50%,-30%);
+    z-index:-1;
+    background: linear-gradient(to left, yellow , red , orange , pink , purple);
+
+}
+
+.btn2:hover::after{
+    background: linear-gradient(to left, yellow , red , orange , pink , purple);
 }
