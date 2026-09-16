@@ -1,0 +1,60 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Center the box model using Flexbox */
+.model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+/* Margin layer */
+.margin-layer {
+    background-color: #f5cba7;
+    padding: 40px;
+}
+
+/* Border layer */
+.border-layer {
+    background-color: #f7dc6f;
+    border: 15px solid #e67e22;
+    padding: 30px;
+}
+
+/* Padding layer */
+.padding-layer {
+    background-color: #a9dfbf;
+    padding: 40px;
+}
+
+/* Content layer */
+.content-layer {
+    background-color: #85c1e9;
+    padding: 50px;
+    font-weight: bold;
+}
+
+/* Description */
+.description {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/* Demonstration of border-box */
+.description {
+    box-sizing: border-box;
+}

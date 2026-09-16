@@ -1,0 +1,61 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* Form container */
+.form-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #bbb;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Input and textarea styling */
+input,
+textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: 2px solid transparent;
+    outline-offset: 3px;
+}
+
+/* Focus selector changes outline color */
+input:focus,
+textarea:focus {
+    outline-color: #3498db;
+    border-color: #3498db;
+}
+
+/* Button */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,59 @@
+/* Remove default spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+/* Navigation links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 25px;
+    border: 1px solid #555;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+/* Active link */
+.navbar a.active {
+    background-color: #e67e22;
+    border-bottom: 4px solid white;
+}
+
+/* Main content */
+main {
+    min-height: 70vh;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive navbar below 700px */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,55 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Flexbox centers all boxes horizontally and vertically */
+.container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Common box styling */
+.box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+/* Fixed pixel dimensions */
+.box-one {
+    width: 200px;
+    height: 150px;
+    background-color: #f5b7b1;
+}
+
+/* Percentage width with max-width */
+.box-two {
+    width: 40%;
+    max-width: 350px;
+    min-height: 150px;
+    background-color: #aed6f1;
+}
+
+/* VH height and EM width */
+.box-three {
+    width: 15em;
+    height: 25vh;
+    min-height: 150px;
+    background-color: #a9dfbf;
+}
