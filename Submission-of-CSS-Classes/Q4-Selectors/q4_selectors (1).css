@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; }
+main { max-width: 800px; margin: 40px auto; padding: 30px; background: white; border-radius: 12px; }
+p { line-height: 1.6; } /* Element selector */
+.highlight { background: #fef3c7; padding: 8px; } /* Class selector */
+#special { color: #dc2626; font-weight: bold; } /* ID selector */
+input[type="text"] { padding: 10px; border: 2px solid #64748b; } /* Attribute selector */
+.box > p { color: #2563eb; } /* Child combinator */
+.box p + p { background: #e0f2fe; } /* Adjacent sibling */
+.box p ~ p { padding-left: 10px; } /* General sibling */
+.box p { margin: 8px; } /* Descendant */
+ul { padding: 20px 40px; }
+a { color: #7c3aed; }
+footer { text-align: center; padding: 20px; }

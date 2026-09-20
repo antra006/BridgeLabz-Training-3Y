@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: Arial, sans-serif; background: #f1f5f9; color: #1e293b; }
+header, footer { background: #1e293b; color: white; text-align: center; padding: 18px; }
+main { flex: 1; display: flex; justify-content: center; align-items: center; padding: 30px 20px; }
+.card { width: min(850px, 100%); display: flex; gap: 30px; align-items: center; background: white; padding: 30px; border: 1px solid #cbd5e1; border-radius: 16px; box-shadow: 0 10px 25px #0002; }
+.content { flex: 1; }
+form { display: flex; flex-direction: column; gap: 12px; }
+input, textarea, button { padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1; font: inherit; }
+textarea { min-height: 100px; resize: vertical; }
+input:focus, textarea:focus { outline: 3px solid #bfdbfe; border-color: #2563eb; }
+.buttons { display: flex; gap: 10px; }
+button { background: #2563eb; color: white; border: 0; cursor: pointer; transition: .2s; }
+button:hover { background: #1d4ed8; transform: translateY(-2px); }
+button:focus { outline: 3px solid #93c5fd; }
+img { width: 220px; border-radius: 12px; box-shadow: 0 5px 15px #0002; }
+@media (max-width: 700px) { .card { flex-direction: column; } img { width: 100%; max-width: 320px; } }

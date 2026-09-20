@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+main { padding: 35px 20px; text-align: center; }
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; max-width: 1000px; margin: 30px auto; }
+figure { margin: 0; }
+.image-box { position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 5px 15px #0003; }
+.image-box::after { content: ""; position: absolute; inset: 0; background: #0008; opacity: 0; transition: .3s; }
+.image-box:hover::after { opacity: 1; }
+img { display: block; width: 100%; transition: transform .3s; }
+.image-box:hover img { transform: scale(1.1); }
+figcaption { padding: 10px; font-weight: bold; }
+@media (max-width: 700px) { .gallery { grid-template-columns: 1fr; max-width: 500px; } }
