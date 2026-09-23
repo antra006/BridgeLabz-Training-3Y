@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.cheat-sheet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.topic {
+    padding: 30px;
+    background-color: #eeeeee;
+    transition: 0.3s;
+}
+
+.topic:hover {
+    transform: scale(1.03);
+    background-color: #dddddd;
+}
+
+@media (max-width: 700px) {
+    .cheat-sheet {
+        grid-template-columns: 1fr;
+    }
+}

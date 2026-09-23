@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.principles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.principle {
+    padding: 30px;
+    transition: 0.4s;
+}
+
+.principle:hover {
+    background: linear-gradient(120deg, #dddddd, #999999);
+    color: white;
+}
+
+code {
+    display: block;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .principles {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: calc(25% - 15px);
+    padding: 50px 20px;
+    background-color: #eeeeee;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #cccccc;
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
