@@ -1,0 +1,15 @@
+body {
+   font-family: system-ui, sans-serif;
+}
+.portfolio-header {
+   background: #fff;
+  box-shadow: 0 8px 30px rgba(20,30,60,.08);
+}
+.profile-img {
+   width: 135px;
+  height: 135px;
+  object-fit: cover;
+}
+footer {
+   color: #667085;
+}

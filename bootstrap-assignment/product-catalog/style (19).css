@@ -1,0 +1,24 @@
+.brand {
+   color: #222;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.brand span {
+   color: #e36b45;
+}
+.product-card {
+   border: 0;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.product-card:hover {
+   transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.12);
+}
+.product-card img {
+   height: 190px;
+  object-fit: cover;
+}
+.price {
+   font-size: 1.1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,31 @@
+/* Bootstrap theme variables are overridden for a custom editorial look. */
+:root {
+   --bs-primary: #a44b36;
+  --bs-primary-rgb: 164,75,54;
+  --bs-font-sans-serif: "DM Sans", sans-serif;
+}
+body {
+   font-family: "DM Sans", sans-serif;
+  background: #fffaf5;
+  color: #342c28;
+}
+h1, h2, h3, .brand {
+   font-family: "Playfair Display", serif;
+}
+.blog-hero {
+   background: #f1dfd2;
+}
+.category {
+   color: #a44b36;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+.card-img-top {
+   height: 240px;
+  object-fit: cover;
+}
+footer {
+   background: #342c28;
+  color: white;
+}

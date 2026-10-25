@@ -1,0 +1,22 @@
+body {
+   color: #172d3d;
+}
+.travel-nav, .travel-footer {
+   background: #102d40;
+}
+.destination-img {
+   height: min(62vh, 560px);
+  min-height: 330px;
+  object-fit: cover;
+  filter: brightness(.78);
+}
+.carousel-caption {
+   bottom: 12%;
+  text-shadow: 0 2px 12px rgba(0,0,0,.55);
+}
+.booking-progress {
+   background: #f1f6f8;
+}
+.progress {
+   height: 1.1rem;
+}

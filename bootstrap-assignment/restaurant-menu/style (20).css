@@ -1,0 +1,13 @@
+body {
+   color: #28352c;
+}
+.menu-hero {
+   color: #fff;
+  background: linear-gradient(120deg, #315943, #8ca66b);
+}
+.table {
+   --bs-table-striped-bg: #f2f6ef;
+}
+footer {
+   background: #f3f5ef;
+}

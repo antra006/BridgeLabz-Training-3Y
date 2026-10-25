@@ -1,0 +1,18 @@
+/* Custom styles complement Bootstrap's responsive grid utilities. */
+:root {
+   --brand: #5b4bdb;
+}
+.site-header {
+   background: #201a4a;
+}
+.hero {
+   color: white;
+  background: linear-gradient(125deg, #5b4bdb, #2b7a9b);
+}
+.hero .btn {
+   color: #352a91;
+}
+footer {
+   background: #201a4a;
+  color: white;
+}

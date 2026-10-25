@@ -1,0 +1,11 @@
+body {
+   background: #f5f7fb;
+  color: #202b3c;
+}
+.card {
+   border-radius: 1rem;
+  overflow: hidden;
+}
+.list-group-item {
+   border-color: #edf0f5;
+}

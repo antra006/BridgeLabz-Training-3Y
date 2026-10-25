@@ -1,0 +1,22 @@
+body {
+   color: #2e332e;
+  background: #fcfbf7;
+}
+.blog-header {
+   background: #e9efe5;
+}
+.card {
+   border: 0;
+  box-shadow: 0 .4rem 1.5rem rgba(30,40,30,.07);
+}
+.card-img-top {
+   height: 220px;
+  object-fit: cover;
+}
+.page-link {
+   color: #3f6547;
+}
+.page-item.active .page-link {
+   background: #3f6547;
+  border-color: #3f6547;
+}

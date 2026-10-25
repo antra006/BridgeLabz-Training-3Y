@@ -1,0 +1,21 @@
+body {
+   background: #f7f8fc;
+  color: #20243a;
+}
+.pricing-card {
+   border: 1px solid #e6e9f2;
+  border-radius: 1.1rem;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.pricing-card:hover {
+   transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(22,35,70,.12);
+}
+.pro-plan {
+   background: #3755d8;
+  color: white;
+  border-color: #3755d8;
+}
+.feature-list li {
+   padding: .4rem 0;
+}
