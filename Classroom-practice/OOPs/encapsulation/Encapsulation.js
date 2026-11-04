@@ -14,7 +14,7 @@
 class Bank{
     #balance=5000;
 
-    // deposite
+    // deposit
 
     deposit(amount)
     {
