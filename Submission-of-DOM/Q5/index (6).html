@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Image Gallery</h1>
+        <div class="gallery" id="gallery">
+            <img src="https://picsum.photos/id/1015/500/350" alt="Mountain river">
+            <img src="https://picsum.photos/id/1016/500/350" alt="Forest landscape">
+            <img src="https://picsum.photos/id/1025/500/350" alt="Dog">
+            <img src="https://picsum.photos/id/1035/500/350" alt="Waterfall">
+            <img src="https://picsum.photos/id/1043/500/350" alt="Nature view">
+            <img src="https://picsum.photos/id/1069/500/350" alt="Ocean">
+        </div>
+    </main>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button id="closeButton" aria-label="Close">×</button>
+            <img id="modalImage" src="" alt="Preview">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

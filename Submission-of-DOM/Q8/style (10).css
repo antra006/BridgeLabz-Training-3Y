@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #f3f4f6; padding: 35px; }
+.container { max-width: 400px; margin: 40px auto; text-align: center; background: white; padding: 25px; border-radius: 10px; }
+.dropdown { position: relative; display: inline-block; width: 230px; }
+#dropdownButton { width: 100%; padding: 12px; background: #2563eb; color: white; border: 0; border-radius: 5px; cursor: pointer; }
+.options { position: absolute; top: 48px; left: 0; width: 100%; background: white; box-shadow: 0 4px 12px #0002; z-index: 2; }
+.option { display: block; width: 100%; padding: 12px; border: 0; background: white; cursor: pointer; text-align: left; }
+.option:hover { background: #dbeafe; }

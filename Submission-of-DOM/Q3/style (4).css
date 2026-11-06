@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background: #eef2f7; padding: 30px; }
+.form-box { max-width: 450px; margin: 40px auto; background: white; padding: 25px; border-radius: 10px; }
+.step { display: none; }
+.step.active { display: block; }
+input { width: 100%; padding: 12px; margin: 12px 0; }
+.buttons { display: flex; justify-content: space-between; margin-top: 15px; }
+button { padding: 10px 20px; border: 0; border-radius: 5px; background: #2563eb; color: white; cursor: pointer; }
+button:disabled { background: #aaa; cursor: not-allowed; }
+#summary { line-height: 1.8; overflow-wrap: anywhere; }

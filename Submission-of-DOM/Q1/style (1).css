@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f3f5f8; margin: 0; padding: 30px; }
+.container { max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 10px; }
+h1 { text-align: center; }
+form { display: flex; gap: 10px; }
+input { flex: 1; padding: 10px; }
+button { padding: 10px 14px; cursor: pointer; border: 0; border-radius: 5px; background: #2563eb; color: white; }
+ul { list-style: none; padding: 0; }
+li { display: flex; align-items: center; gap: 8px; padding: 12px 0; border-bottom: 1px solid #ddd; }
+.product-name { flex: 1; }
+.delete-btn { background: #dc2626; }
+.edit-input { flex: 1; padding: 8px; }

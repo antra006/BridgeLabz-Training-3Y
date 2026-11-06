@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #f4f6fb; padding: 30px; }
+.box { max-width: 550px; margin: 40px auto; background: white; padding: 25px; border-radius: 10px; }
+textarea { width: 100%; height: 150px; padding: 10px; resize: vertical; font: inherit; }
+#counter { text-align: right; color: green; font-weight: bold; }
+#counter.warning { color: #d69e00; }
+#counter.danger { color: red; }
+button { padding: 10px 18px; background: #2563eb; color: white; border: 0; border-radius: 5px; cursor: pointer; }
